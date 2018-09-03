@@ -27,7 +27,7 @@ p {
 
 .btn {
 	display: inline-block;
-	background: #333;
+	background: red;
 	color: #fff;
 	text-decoration: none;
 	padding:1em;
@@ -36,8 +36,8 @@ p {
 }
 
 .btn:hover{
-	background: #eaeaea;
-	color: #333;
+	background: blue;
+	color: #fff;
 }
 
 /* Header Showcase */
