@@ -21,6 +21,8 @@
 			<p id="definition"><span>"a massive force that crushes whatever's in its path!"</span></p>
 			<a href="#section-b" class="btn">Meet the DJs</a>
 		</div>
+
+		
 	</header>
 
 	<!-----Main Area------->
@@ -117,6 +119,12 @@
 
 	<script>
 
+	
+			$(document).ready(function() {
+    		$('body').hide().fadeIn(3000);
+			});
+	
+
 		var iScrollPos = 0;
 
  
@@ -128,12 +136,13 @@ $(window).scroll(function () {
 		$('#section-b ul #li2').slideDown(2500);
 		$('#section-b ul #li3').slideDown(3500);
 
-    } else {
+    } else /*{
 
-       	/*$('#section-b ul #li1').slideUp(1500);
+
+       	$('#section-b ul #li1').slideUp(1500);
 		$('#section-b ul #li2').slideUp(2500);
-		$('#section-b ul #li3').slideUp(3500);*/
-    }
+		$('#section-b ul #li3').slideUp(3500);
+    }*/
     iScrollPos = iCurScrollPos;
 });
 
