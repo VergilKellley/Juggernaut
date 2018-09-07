@@ -88,11 +88,17 @@ main {
 	padding: 0 1.5em;
 }
 
+#section-b ul li {
+	display: none;
+}
+
 .card {
+	/*height: 750px;*/
 	background: #eaeaea;
 	color: #333;
 	margin-top: 35px;
 }
+
 
 /* Section A */
 
@@ -109,6 +115,7 @@ main {
 }
 
 #section-b ul {
+	height: 800px;
 	list-style: none;
 	margin:0;
 	padding:0;
